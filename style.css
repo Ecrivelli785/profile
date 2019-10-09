@@ -1,0 +1,77 @@
+
+body {
+  /*background-image: linear-gradient(#F7F9FC, #6D7275);*/
+  background-image: url("https://source.unsplash.com/random");
+  font-family: 'Roboto', sans-serif;
+  color: rgb(10, 10, 10) ;
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 0px auto;
+  text-align: center;
+  background-size: cover;
+}
+
+h1 {
+  color: #0A0F19;
+  font-size: 40px;
+  line-height: 1.6;
+}
+
+h2{
+  color: #E67E28;
+  font-size: 30px;
+  line-height: 1.6;
+}
+
+#imagen {
+  border-radius: 75px;
+}
+ #button {
+  background-color: #0A0F19;
+  color: white;
+  border-radius: 5px;
+  padding: 9px 26px;
+  font-size: 30px;
+  line-height: 3;
+  text-decoration: none;
+ }
+
+ .container {
+  width: 60%;
+  margin: 0 auto;
+}
+.card-white {
+background-color: rgba(255,255,255,0.7);
+padding: 20px;
+border: 10px solid lightgrey;
+}
+
+.list-line{
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+  font-size:80px;
+  color: #0A0F19;
+}
+
+ li {
+  display: inline-block;
+  color: #0A0F19;
+ }
+.color {
+  color: #0A0F19 !important;
+}
+
+@media (max-width: 960px) {
+.container {width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {width: 500px;}
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
